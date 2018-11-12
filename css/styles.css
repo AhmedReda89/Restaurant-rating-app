@@ -70,7 +70,7 @@ section {
   text-transform: uppercase;
 }
 /* ====================== Navigation ====================== */
-nav {
+nav.main-nav {
   width: 100%;
   background-color: #252831;
   text-align: center;
@@ -92,7 +92,7 @@ nav h1 a {
   background-color: #eee;
   font-size: 17px;
   margin: 0;
-  width: calc(50% - 80px);
+  width: 50%;
   box-sizing: border-box;
 }
 
@@ -178,7 +178,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial, sans-serif;
   font-size: 14pt;
